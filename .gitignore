@@ -1,0 +1,33 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+.pytest-*/
+*.pyc
+backend/data/
+*.sqlite3*
+node_modules/
+dist/
+coverage/
+.DS_Store
+
+backend/workspace/
+
+# Generated validation and test artifacts
+validation/
+backend/*results*.txt
+frontend/*results*.txt
+
+# Temporary runtime files
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.log
+
+# Local sandbox and generated test files
+backend/sandbox_image/
+*.log
